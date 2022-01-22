@@ -1,4 +1,4 @@
-
+body  {background-color: #F7F7F7;}
 
 .cover-box  { position: relative; 
 				z-index: 0;}
@@ -11,7 +11,7 @@
 				z-index: 0;}
 
 .navclass { position: absolute;
-			z-index: 4; 
+			z-indexs: 4; 
 			top: 0;
 			left: 0;
 			z-index:3;
@@ -110,5 +110,94 @@
 .article5text   {font-size:18px;
 				color: #434343;
 				line-height: 33px }
+
+.last-article-title { font-size: 25px;
+					color: #000000; 
+					margin-top: 61px;
+					padding-bottom: 36px;
+					padding-top: 50px; }
+
+.last-article-content {display: flex;}
+
+.last-article-text   { 	width: 439px;
+						height: 126px;
+						font-size: 18px;
+						line-height: 33px;
+						color: #434343; 
+						margin-right: 89px;}
+
+.conclusion-box    { width: 1440px;
+					height: 474px;
+					background-color: #0865de; 
+					margin-top: 100px;}
+
+.conclusion-title   { font-size: 25px;
+					letter-spacing: 5px;
+					line-height: 30px;
+					color: #ffffff; 
+					padding-top: 81px;
+					padding-left: 170px;}
+
+.conclusion-text   { width: 1001px;
+					height: 168px;
+					font-size: 25px;
+					line-height: 44px;
+					color: #002d69;
+					padding-top: 57px;
+					padding-left: 170px; 
+					}
+
+.projects  {  	padding-top: 81px;
+				padding-left: 170px; }
+
+.projects-title {  color: #000000; 
+					font-size:  14px;
+					padding-bottom: 62px;}
+
+.projects-box    { display: flex; }
+
+.project-class  { width: 320px;
+			 height: 461px;
+			 background-color: #ffffff; 
+			margin-right: 61px;
+			box-shadow:  rgba(0,0,0,0.1607843137254902 );  }
+
+.project-class img {  width: 100%;
+						height: 276px;
+						fill: transparent;  }
+
+.project-class h2   {font-size: 13px;
+					letter-spacing: 1px;
+					line-height: 31px;
+					color: #262626;}
+
+.project-class h3  { font-size: 14px;
+					line-height: 31px;
+					color: #262626; }
+
+.project-class h4   { 	font-size: 11px;
+						letter-spacing: 1px;
+						line-height: 31px;
+						color: #959595;  }
+
+.project-class a   { font-size: 11px;
+					letter-spacing: 1px;
+					line-height: 31px;
+					color: #262626; }
+
+.botton  {position: relative;
+			z-index: 0; 
+			padding-top: 91px;
+			padding-left: 640px; }
+
+
+.botton h2    {position: absolute;
+				z-index: 4; 
+				top: 70;
+				left: 640;
+				}
+
+.footer  {width: 1440px;
+			height: 540px;}
 
 
